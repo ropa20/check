@@ -1,0 +1,141 @@
+.container{
+  background-color: rgb(238, 238, 238);
+  width: 600px;
+  min-height:100vh;
+  border: 1px solid #2d2d2d;
+
+}
+.main-div{
+  align-items: left;
+}
+.checked-item {
+  text-decoration: line-through;
+}
+.each-todo{
+  font-size: large;
+}
+h1{
+  color: rgb(255, 187, 0);
+  font-size: large;
+  font-weight: bold;
+  float: left;
+  padding-left: 15px;
+}
+h3{
+  padding-top: 20px;
+  font-size: 25px ;
+}
+.h4{  /*for date */
+  font-size: 20px;
+  color: red;
+  padding-left: 20px;
+}
+input[type="checkbox"] {
+  width: 20px;                         
+  height: 20px;                        
+  clip-path: circle(40%);   /* Set the clip path of circle*/
+}
+.todo-line{
+  display: flexbox;
+  justify-content: baseline;
+}
+.del{
+  text-align: right;
+  font-size: 20;
+  color: red;
+}
+.each-todo{
+  display: flex;
+  justify-content: space-between;
+}
+@import 'antd/dist/antd.css';
+
+.ant-layout{
+  background-color: rgb(238, 238, 238);
+
+  /* height: 90vh; */
+}
+.ant-layout-header,
+.ant-layout-footer {
+  justify-content: left;
+  background-color: rgb(238, 238, 238);
+
+}
+
+.ant-layout-content {
+  min-height: 90vh;
+  padding-top:30px ;
+}
+
+.today-scheduled{
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 7px;
+}
+.flex-child{
+  flex:1;
+}
+.flex:first-child{
+  margin-right: 20px;
+}
+
+.add-reminder-btn
+{
+  float:left;
+}
+.add-list-btn
+{
+  float:right;
+}
+.flex-child{
+  flex:1;
+}
+.flex:first-child{
+  margin-right: 20px;
+}
+.today,.scheduled,.all,.reminder{
+  border-radius: 10px;
+}
+.add-list-btn,.add-reminder-btn,.add-show-btn,.delete-btn{
+    background: transparent;
+    border: none !important;
+}
+.check{
+  display: inline;
+}
+.each-items{
+  display: flex;
+  justify-content: space-between;
+}
+.item{
+  font-size: 20px;
+  padding-left: 15px;
+}
+.date{
+  font-size: 20px;
+  color: rgb(151, 10, 10);
+  padding-left: 20px; 
+}
+.show{
+  padding-top: 80px;
+}
+.icon{
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+}
+.add-list-link{
+  text-align: center;
+  vertical-align: middle;
+}
+.search{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}
+.title{
+  display: flex;
+  align-items: baseline;
+}
+.strike {
+  text-decoration: line-through;
+}
